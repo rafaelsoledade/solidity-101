@@ -17,8 +17,7 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.6+commit.11564f7e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"getResult\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Starter.sol\":\"Starter\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Starter.sol\":{\"keccak256\":\"0x289961f492ede63c39ae52c84fb75cea48aa79a0d68ad1b22711e5fefe166c21\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://e3a859025427885621bb48fc85da7f2b3aa71edd60e5c3f2bf08a8ff94e7c8fb\",\"dweb:/ipfs/QmVzd2SFyEg6aSZveMF2LLhEnMQRLa4RsobD74SDCDSSke\"]}},\"version\":1}",
@@ -537,7 +536,7 @@
   "sourceMap": "93:365:1:-:0;;;138:88;;;;;;;;;;93:365;;;;;;",
   "deployedSourceMap": "93:365:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;232:224;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;274:7;357:9;369:1;357:13;;380:9;392:1;380:13;;403:14;424:1;420;:5;;;;:::i;:::-;403:22;;443:6;436:13;;;;;232:224;:::o;7:118:2:-;94:24;112:5;94:24;:::i;:::-;89:3;82:37;72:53;;:::o;131:222::-;224:4;262:2;251:9;247:18;239:26;;275:71;343:1;332:9;328:17;319:6;275:71;:::i;:::-;229:124;;;;:::o;359:305::-;399:3;418:20;436:1;418:20;:::i;:::-;413:25;;452:20;470:1;452:20;:::i;:::-;447:25;;606:1;538:66;534:74;531:1;528:81;525:2;;;612:18;;:::i;:::-;525:2;656:1;653;649:9;642:16;;403:261;;;;:::o;670:77::-;707:7;736:5;725:16;;715:32;;;:::o;753:180::-;801:77;798:1;791:88;898:4;895:1;888:15;922:4;919:1;912:15",
   "source": "// SPDX-License-Identifier: GPL-3.0\n\npragma solidity ^0.8.6; // Specifying compiler version\n\ncontract Starter {\n    // Contract name\n\n    constructor() {\n        // Empty constructor - Solidity only enables 1 constructor\n    }\n\n    function getResult() public pure returns (uint256) {\n        // function that's view only, public and returns an int\n        uint256 a = 1;\n        uint256 b = 2;\n        uint256 result = a + b;\n\n        return result;\n    }\n}\n",
-  "sourcePath": "/Users/rafaelmatos/Desktop/CryptoProjects/Solidity Learning Fundamentals/Sol 101/contracts/Starter.sol",
+  "sourcePath": "/Users/rafaelmatos/Desktop/CryptoProjects/Blockchain Dev Fundamentals/solidity/Sol 101/contracts/Starter.sol",
   "ast": {
     "absolutePath": "project:/contracts/Starter.sol",
     "exportedSymbols": {
@@ -1233,8 +1232,7 @@
     }
   },
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-08-03T15:18:30.975Z",
-  "networkType": "ethereum",
+  "updatedAt": "2021-08-03T16:03:15.736Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
