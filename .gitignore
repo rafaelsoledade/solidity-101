@@ -2,3 +2,4 @@
 */test/.placeholder
 */build
 */node_modules
+*/.secret
