@@ -15,3 +15,7 @@
 <b>Projects</b>
 1. Truffle 101 - contains the basic and official Truffle pet shop adoption project
 2. Sol 101 - Contains some basic Solidity projects made for learning
+
+<b>Run Ganache CLI on localhost:8545</b>
+- ganache-cli -f https://bsc-dataseed.binance.org
+ 
